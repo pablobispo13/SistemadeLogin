@@ -1,0 +1,15 @@
+﻿Código para criação do banco de dados: 
+create database bd_sistemadelogin
+use bd_sistemadelogin
+CREATE TABLE usuario  
+(
+        cod_usu INT NOT NULL IDENTITY,
+        nome_usu VARCHAR(50)  NOT NULL,
+        cpf_usu VARCHAR(50) NOT NULL,
+        senha_usu VARCHAR(50) NOT NULL,
+     
+        CONSTRAINT PK_usuario PRIMARY KEY(cod_usu)
+)
+
+//1 - Foi inserido um notifyicon para que a mensagem de login ao inves de aparecer em uma messagebox aparecer em uma notificação padrão do Windows!
+//2 - Alterar o tema padrao do app de claro para escuro(questão de estética)
