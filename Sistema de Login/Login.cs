@@ -47,7 +47,7 @@ namespace Sistema_de_Login
         private void bt_tema_Click(object sender, EventArgs e)
         {
             
-            tema();//tema
+            tema();//2
         }
         private void logar()
         {
